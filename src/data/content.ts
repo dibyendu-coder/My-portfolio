@@ -203,18 +203,16 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 
 export const PROJECTS: ProjectItem[] = [
   {
-    id: 'mlh-winner-project',
-    title: '[TODO: MLH Hackathon Winning Project Name]',
-    tagline: 'Global MLH Hackathon Winner — Rapid Prototype to Champion Submission',
+    id: 'vibeguard',
+    title: 'VibeGuard',
+    tagline: 'AI-Native Pre-Production Security & Reliability Auditor',
     description:
-      '[TODO: Replace with official hackathon winning project pitch: what problem it solved, the technical architecture, and the judging track it won in MLH.] Built under strict hackathon time limits using AI assistance, high-velocity frontend engineering, and seamless cloud deployment.',
-    tags: ['MLH Winner', 'Generative AI', 'TypeScript', 'Hackathon Champion', 'Cloud Deploy'],
-    githubUrl: 'https://github.com/dibyendu-coder',
-    liveUrl: '#',
+      '1x MLH Hackathon Winner. Deterministic quality and security gate for AI/vibe-coded and traditional codebases. Constructs multi-file dependency AST graphs to audit async race conditions, Docker root privileges, secret leaks, missing healthchecks, and unhandled exceptions with an interactive CLI control center and web dashboard.',
+    tags: ['MLH Winner', 'TypeScript', 'AST Analysis', 'Security', 'Reliability', 'Docker', 'CLI'],
+    githubUrl: 'https://github.com/dibyendu-coder/VibeGuard',
+    liveUrl: 'https://github.com/dibyendu-coder/VibeGuard',
     featured: true,
     isMlhWinner: true,
-    isTodoPlaceholder: true,
-    todoNote: 'Enter the exact MLH project name, Devpost/repo URL, and winning track details.',
   },
   {
     id: 'zerohour',
@@ -306,21 +304,21 @@ export const TERMINAL_COMMANDS_HELP = [
 export const TODO_CHECKLIST = [
   {
     id: 'mlh-project',
-    title: 'MLH Hackathon Winning Project',
-    action: 'Provide project name, short pitch, Devpost/repo link, and winning track in src/data/content.ts.',
-    status: 'Pending user details',
+    title: 'MLH Hackathon Winning Project (VibeGuard)',
+    action: 'Linked to https://github.com/dibyendu-coder/VibeGuard with full AST analysis and security audit specifications.',
+    status: 'Completed',
+  },
+  {
+    id: 'photo',
+    title: 'Profile Photo',
+    action: 'High-res profile photo set in public/me.jpg.',
+    status: 'Completed',
   },
   {
     id: 'client-work',
     title: 'Client Websites (1-2 Projects)',
     action: 'Provide client names, brief summary, and live URLs in src/data/content.ts.',
     status: 'Pending user details',
-  },
-  {
-    id: 'photo',
-    title: 'Profile Photo',
-    action: 'Drop your photo into public/me.jpg (the site already defaults gracefully to public/me.svg).',
-    status: 'Ready for swap',
   },
 ];
 
