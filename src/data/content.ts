@@ -261,28 +261,6 @@ export const PROJECTS: ProjectItem[] = [
     tags: ['Open-Weight AI', 'Offline-First', 'Edge Inference', 'Mobile-Ready'],
     githubUrl: 'https://github.com/dibyendu-coder',
   },
-  {
-    id: 'client-website-1',
-    title: '[TODO: Client Website 1]',
-    tagline: 'Production Commercial Web Application',
-    description:
-      '[TODO: Replace with client project name, brief description of business value, tech stack used, and live production link.]',
-    tags: ['Commercial', 'React', 'TailwindCSS', 'Production'],
-    liveUrl: '#',
-    isTodoPlaceholder: true,
-    todoNote: 'Add name, client summary, and production URL.',
-  },
-  {
-    id: 'client-website-2',
-    title: '[TODO: Client Website 2]',
-    tagline: 'High-Converting Digital Experience',
-    description:
-      '[TODO: Replace with client project 2 name, responsive design accomplishments, performance metrics, and live URL.]',
-    tags: ['Client Project', 'Performance', 'Full Stack', 'Cloud'],
-    liveUrl: '#',
-    isTodoPlaceholder: true,
-    todoNote: 'Add second client project details or replace with client case study.',
-  },
 ];
 
 export const TERMINAL_COMMANDS_HELP = [
@@ -313,12 +291,6 @@ export const TODO_CHECKLIST = [
     title: 'Profile Photo',
     action: 'High-res profile photo set in public/me.jpg.',
     status: 'Completed',
-  },
-  {
-    id: 'client-work',
-    title: 'Client Websites (1-2 Projects)',
-    action: 'Provide client names, brief summary, and live URLs in src/data/content.ts.',
-    status: 'Pending user details',
   },
 ];
 
