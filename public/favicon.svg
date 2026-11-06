@@ -14,3 +14,4 @@
   <rect x="2" y="2" width="96" height="96" rx="22" fill="none" stroke="url(#grad)" stroke-width="3" />
   <text x="50" y="62" font-family="'Space Grotesk', system-ui, sans-serif" font-size="38" font-weight="800" fill="url(#grad)" text-anchor="middle" filter="url(#glow)">DC</text>
 </svg>
+

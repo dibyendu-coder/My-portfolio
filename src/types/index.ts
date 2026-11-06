@@ -46,3 +46,4 @@ export interface SkillCategory {
     superpower?: boolean;
   }[];
 }
+
