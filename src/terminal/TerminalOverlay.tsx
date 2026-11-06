@@ -220,7 +220,7 @@ export const TerminalOverlay: React.FC<TerminalOverlayProps> = ({
         if (!args[0]) {
           output = (
             <p className="text-amber-400 text-xs">
-              Usage: <code className="text-pink-400">open &lt;project-id&gt;</code>. Examples: open zerohour, open neuralquery
+              Usage: <code className="text-pink-400">open &lt;project-id&gt;</code>. Examples: open vibeguard, open zerohour
             </p>
           );
         } else {

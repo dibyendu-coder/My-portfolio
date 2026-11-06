@@ -26,7 +26,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenTerminal }) => {
               Dibyendu Chatterjee <span className="text-cyan-400">(&quot;DC&quot;)</span>
             </p>
             <p className="text-[11px] text-slate-500">
-              AWS Student Builder Challenge • November 2026
+              AI Engineer &amp; Full-Stack Builder • Greater Kolkata Area, India
             </p>
           </div>
         </div>

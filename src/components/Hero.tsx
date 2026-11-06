@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {
   ArrowRight,
   Terminal as TerminalIcon,
-  Award,
   ChevronDown,
   ExternalLink,
 } from 'lucide-react';
@@ -63,15 +62,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenTerminal }) => {
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="relative z-10 max-w-5xl mx-auto text-center flex flex-col items-center">
-        {/* Top MLH Champion Pill */}
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-cyan-950/90 to-purple-950/90 border border-cyan-500/40 shadow-[0_0_20px_rgba(0,245,255,0.25)] mb-6 animate-float">
-          <Award className="w-4 h-4 text-amber-400" />
-          <span className="text-xs sm:text-sm font-mono font-medium text-cyan-200">
-            AWS Student Builder Challenge • Nov 2026
-          </span>
-          <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping" />
-        </div>
-
         {/* Main Name & Initials */}
         <div className="flex flex-col items-center mb-4">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1]">
