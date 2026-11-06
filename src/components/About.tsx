@@ -39,12 +39,12 @@ export const About: React.FC = () => {
 
             <div className="flex flex-col items-center text-center">
               {/* Photo Container */}
-              <div className="relative w-48 h-48 sm:w-52 sm:h-52 rounded-2xl overflow-hidden border-2 border-cyan-500/40 p-1 bg-gradient-to-tr from-cyan-500 via-violet-600 to-pink-500 shadow-[0_0_35px_rgba(0,245,255,0.3)] mb-4">
+              <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-2xl overflow-hidden border-2 border-cyan-500/40 p-1 bg-gradient-to-tr from-cyan-500 via-violet-600 to-pink-500 shadow-[0_0_35px_rgba(0,245,255,0.3)] mb-4">
                 <img
                   src={imgSrc}
                   onError={() => setImgSrc(PERSONAL_INFO.avatarFallback)}
                   alt="Dibyendu Chatterjee"
-                  className="w-full h-full object-cover object-[50%_28%] rounded-xl bg-[#070b14]"
+                  className="w-full h-full object-cover object-[50%_52%] rounded-xl bg-[#070b14]"
                 />
                 <div className="absolute bottom-2 right-2 px-2.5 py-0.5 rounded-lg bg-black/85 backdrop-blur-sm border border-cyan-400 text-[11px] font-mono font-bold text-cyan-300 shadow-md">
                   DC
